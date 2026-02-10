@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Adrian Olszewski | Frontend Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cvstyle.css">
+
+  <style>
+    h2 {
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+
+<header id="top">
+  <h1>Adrian Olszewski</h1>
+  <p style="color: gray;">Junior Frontend Developer</p> 
+</header>
+
+<nav class="navbar">
+  <ul>
+    <li><a href="cv.html">Home</a></li>
+    <li><a href="umiejetnosci.html">Skills</a></li>
+    <li><a href="projekty.html">Projects</a></li>
+    <li><a href="kontakt.html">Contact</a></li>
+  </ul>
+</nav>
+
+
+<main class="container">
+
+ 
+  <section class="columns">
+    <div class="column">
+      <h2>O mnie</h2>
+      <p>Jestem studentem informatyki na UTH w Warszawie.</p>
+    </div>
+
+    <div class="column">
+      <h2>Technologie</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+		<li>C++ </li>
+		<li>Technologie sieciowe </li>
+      </ul>
+    </div>
+
+    <div class="column">
+      <h2>Doświadczenie</h2>
+      <table>
+        <tr>
+          <th>Rok</th>
+          <th>Opis</th>
+        </tr>
+        <tr>
+          <td>2026</td>
+          <td>Projekt portfolio</td>
+        </tr>
+		<tr>
+		<td>2022 </td>
+		<td>Projekty Stron Internetowych- Staż zagraniczny </td>
+		</tr>
+		<tr> 
+		<td> 2022/2024</td>
+		<td>Administracja Systemów IT w banku - Praktyki Zawodowe </td>
+		</tr>
+      </table>
+    </div>
+  </section>
+
+ <div class="container">
+  <section class="slideshow">
+    <h2>Galeria</h2>
+    <img class="slide"  src="P1.png" alt="Slide" width="100%" height="500px">
+	 <img class="slide"  src="P2.png" alt="Slide" width="100%" height="500px">
+	 <img class="slide"  src="P3.png" alt="Slide" width="100%" height="500px">
+	 <img class="slide"  src="P4.png" alt="Slide" width="100%" height="500px">
+    <button class="prev" onclick="prevSlide()">Prev</button>
+    <button class="next" onclick="nextSlide()">Next</button>
+  </section>
+  </div>
+  <script src="slideshow.js"></script>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 Adrian Olszewski</p>
+</footer>
+</body>
+</html>

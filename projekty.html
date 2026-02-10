@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Projects</title>
+  <link rel="stylesheet" href="cvstyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header id="top">
+  <h1>Adrian Olszewski</h1>
+  <p style="color: gray;">Junior Frontend Developer</p> 
+</header>
+
+<nav class="navbar">
+  <ul>
+    <li><a href="cv.html">Home</a></li>
+    <li><a href="umiejetnosci.html">Skills</a></li>
+    <li><a href="projekty.html">Projects</a></li>
+    <li><a href="kontakt.html">Contact</a></li>
+  </ul>
+</nav>
+
+<main>
+  <h2>Projekty</h2>
+
+ 
+  <input type="text" id="searchInput" placeholder="Szukaj projektu...">
+
+  
+  <select id="techFilter">
+    <option value="all">Wszystkie</option>
+    <option value="html">HTML</option>
+    <option value="js">JavaScript</option>
+	<option value="js">C++/Python</option>
+  </select>
+
+  <div id="projectsList" class="projects">
+    <div class="project-card" data-tech="html">
+      <h3>CV Website</h3>
+      <p>HTML + CSS</p>
+    </div>
+
+    <div class="project-card" data-tech="js">
+      <h3>Todo App</h3>
+      <p>JavaScript</p>
+    </div>
+	<div class="project-card" data-tech="C++/python">
+	<h3>Simple Calculator</h3>
+	<p>C++/Python</p>
+  </div>
+</main>
+
+<script src="js/script.js"></script>
+<footer>
+  <p>&copy; 2026 Adrian Olszewski</p>
+</footer>
+<script src="szukaj.js"></script>
+</body>
+</html>
