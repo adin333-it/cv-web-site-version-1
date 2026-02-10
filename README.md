@@ -16,7 +16,7 @@ Features
 - Basic JavaScript interactions
 
  Live Demo
-[https://t/cv-website/](https://github.com/adin333-it/cv-web-site-version-1.)
+https://github.com/adin333-it/cv-web-site-version-1
 
  Project Status
 Project is finished, but I plan to improve it as I learn new technologies.
